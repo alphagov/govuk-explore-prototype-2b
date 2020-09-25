@@ -1,0 +1,15 @@
+This is the prototype for the new Explore Navigation on www.gov.uk
+
+## Install
+
+`npm init`
+
+## Run
+
+Open 2 terminal windows, and run 
+
+`npx nodemon` in one of them, and
+
+`npx browser-sync start --proxy 'localhost:3000' --files . --no-open` 
+
+in the other.
